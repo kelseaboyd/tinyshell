@@ -1,4 +1,4 @@
-Design overview
+##### Design overview
 ---------------
 In main, I first determine whether to use batch mode or interactive mode by detecting
 the number of arguments and attempting to open the file to read from if one is provided.
@@ -17,7 +17,8 @@ I handled the quit utility with a boolean flag (quit) that is set to true when "
 input. Then, it would exit the program after all the child processes had completed if the
 flag was set to true.
 
-Complete specification
+
+##### Complete specification
 ----------------------
 Any empty commands are set to NULL and are skipped over in the loop with "continue", thus 
 ignoring empty command lines, extra white space or semi-colons. My shell returns an error
