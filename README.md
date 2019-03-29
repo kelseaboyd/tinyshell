@@ -18,6 +18,7 @@ input. Then, it would exit the program after all the child processes had complet
 flag was set to true.
 
 
+
 Complete specification
 ----------------------
 Any empty commands are set to NULL and are skipped over in the loop with "continue", thus 
